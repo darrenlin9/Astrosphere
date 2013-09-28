@@ -1,6 +1,6 @@
 // Darren Lin
 // This script continuosly checks the static marker variable 
-// declared in Player.js, and changes the GUI Texture
+// declared in AstroplayerPlayer.js, and changes the GUI Texture
 // accordingly.
 
 var health1 : Texture2D;
