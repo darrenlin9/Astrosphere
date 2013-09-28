@@ -67,7 +67,7 @@ function Update ()
 	transform.Rotate(0, Input.GetAxis ("Horizontal") * rotateSpeed, 0);
 	controller.SimpleMove(forward * curSpeed);
 	moveDirection = Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
-	 moveDirection = transform.TransformDirection(moveDirection);
+	moveDirection = transform.TransformDirection(moveDirection);
     	moveDirection *= speed;
 	if(Input.GetButton("Jump"))
 	{
