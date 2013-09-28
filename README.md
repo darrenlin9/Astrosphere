@@ -5,3 +5,5 @@ of the scripts into C# for personal enrichment. A large majority of the textures
 the Unity editor or from opengameart.org.
 
 ![alt tag](https://raw.github.com/CogBear/Astrosphere/master/img/Astrosphere.PNG)
+![alt tag](https://raw.github.com/CogBear/Astrosphere/master/Assets/img/Astrosphere1.PNG)
+![alt tag](https://raw.github.com/CogBear/Astrosphere/master/Assets/img/Astrosphere2.PNG)
