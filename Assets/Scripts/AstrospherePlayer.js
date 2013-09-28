@@ -82,10 +82,10 @@ function Update ()
         	if (Input.GetButton ("Jump")) 
         		moveDirection.y = jumpSpeed;
     	}
-    // Applys gravity.
-    moveDirection.y -= gravity * Time.deltaTime;
-    // Moves the controller.
-    controller.Move(moveDirection * Time.deltaTime);
+    	// Applys gravity.
+    	moveDirection.y -= gravity * Time.deltaTime;
+    	// Moves the controller.
+    	controller.Move(moveDirection * Time.deltaTime);
 }
 
 function LateUpdate()
@@ -109,12 +109,12 @@ function OnCollisionEnter(collision : Collision)
 	audio.Play();
 	speed -= 1;
 	Target.points -= 1;
-    marker++;
-    if(marker == 3)
-    {
-    	marker = 0;
-    	dead = true;
-    }
+    	marker++;
+    	if(marker == 3)
+    	{
+    		marker = 0;
+    		dead = true;
+	}
 }
 
 @script RequireComponent(CharacterController)
