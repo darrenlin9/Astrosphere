@@ -12,7 +12,7 @@ function OnTriggerEnter (player : Collider)
 		audio.Play();
 		yield WaitForSeconds(0.1);
 		Destroy(gameObject);
-		AstroPlayer.speed += 1.0;
+		AstrospherePlayer.speed += 1.0;
 		points++;
 	}
 }
