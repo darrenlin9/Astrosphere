@@ -80,7 +80,9 @@ function Update ()
         	moveDirection = transform.TransformDirection(moveDirection);
         	moveDirection *= speed;        
         	if (Input.GetButton ("Jump")) 
+        	{
         		moveDirection.y = jumpSpeed;
+        	}
     	}
     	// Applys gravity.
     	moveDirection.y -= gravity * Time.deltaTime;
