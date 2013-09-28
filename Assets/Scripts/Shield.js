@@ -27,5 +27,5 @@ function Start()
 function Update()
 {
 	shield.LookAt(player);
-	shield.Translate((Player.speed * 10) * Vector3.forward * Time.deltaTime);
+	shield.Translate((AstrospherePlayer.speed * 10) * Vector3.forward * Time.deltaTime);
 }
