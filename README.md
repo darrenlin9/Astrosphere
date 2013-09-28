@@ -4,4 +4,4 @@ An open source, free game for Unity3D primarily written in Javascript and C#. I 
 of the scripts into C# for personal enrichment. A large majority of the textures, sounds, and models come standard with 
 the Unity editor or from opengameart.org.
 
-![alt tag](http://imgur.com/Cc9OJs0)
+![ScreenShot](http://imgur.com/Cc9OJs0)
