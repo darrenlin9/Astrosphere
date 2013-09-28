@@ -1,5 +1,5 @@
 // Darren Lin
-// Turet AI: tracks player and continously instantiates a 
+// Turret AI: tracks player and continously instantiates a 
 // prefab with a force at the location "TurretProjectileSpawn"
 // which is positioned in the Unity editor.
 
