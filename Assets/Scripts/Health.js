@@ -9,7 +9,7 @@ var health3 : Texture2D;
 
 function Update () 
 {
-	if(Player.marker == 0)
+	if(AstrospherePlayer.marker == 0)
 		guiTexture.texture = health3;
 	else if(Player.marker == 1)
 		guiTexture.texture = health2;
