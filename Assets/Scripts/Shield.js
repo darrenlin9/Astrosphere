@@ -1,4 +1,9 @@
 // Darren Lin
+// Provides a "shield" spell for the player.
+// This is accomplished by having a sphere collider
+// activate when Fire2 is pressed and having it 
+// follow the player.
+
 var player : Transform;
 var shield : Transform;
 var shieldTime : int = 5;
