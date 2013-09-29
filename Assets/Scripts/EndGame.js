@@ -19,5 +19,7 @@ function Start()
 	// Restart
 	yield WaitForSeconds(5);
 	Target.points = 0;
+	Timer.seconds = 30;
+	Timer.minutes = 1;
 	Application.LoadLevel(0);
 }
