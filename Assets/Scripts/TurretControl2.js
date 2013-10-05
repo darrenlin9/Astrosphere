@@ -14,7 +14,7 @@ function Update ()
 	{
 		// Track the target.
 		var rotate = Quaternion.LookRotation(LookAtTarget.position - transform.position);
-		transform.rotation = Quaternion.Slerp(transform.rotation, rotate, Time.time * 100 );
+		transform.rotation = Quaternion.Slerp(transform.rotation, rotate, Time.time * 10 );
 		var seconds : int = Time.time;
 		
 		// This gives the turret a proper delay between calling Shoot.
@@ -35,6 +35,6 @@ function Shoot(seconds)
 	// search for the "TurretProjectileSpawn(2-4)".
 	var bullet = Instantiate(bulletPrefab, GameObject.Find("TurretProjectileSpawn2").transform.position, 
 	Quaternion.identity);
-	bullet.rigidbody.AddForce(transform.forward * 50000);
+	bullet.rigidbody.AddForce(transform.forward * 10000);
 	savedTime = seconds;
 }
