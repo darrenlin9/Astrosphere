@@ -11,7 +11,7 @@ function Update ()
 {
 	if(AstrospherePlayer.marker == 0)
 		guiTexture.texture = health3;
-	else if(Player.marker == 1)
+	else if(AstrospherePlayer.marker == 1)
 		guiTexture.texture = health2;
 	else 
 		guiTexture.texture = health1;
