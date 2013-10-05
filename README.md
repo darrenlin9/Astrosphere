@@ -6,7 +6,8 @@ design features. A large majority of the textures, sounds, and models come stand
 
 A majority of the code can be viewed in Assets/Scripts.
 
-The game can be played here: https://dl.dropboxusercontent.com/u/221605690/AstroSphereWebPlayer/AstroSphereWebPlayer.html
+The game can be played here: (Full Screen is Recommended)
+https://dl.dropboxusercontent.com/u/221605690/AstroSphereWebPlayer/AstroSphereWebPlayer.html
 
 ![alt tag](https://raw.github.com/CogBear/Astrosphere/master/img/Astrosphere.PNG)
 ![alt tag](https://raw.github.com/CogBear/Astrosphere/master/Assets/img/Astrosphere1.PNG)
