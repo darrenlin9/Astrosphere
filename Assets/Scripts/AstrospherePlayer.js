@@ -86,9 +86,11 @@ function OnCollisionEnter(collision : Collision)
 {
 	// Call "dead" function when hit 3 times.
 	audio.Play();
-	speed -= 1;
-	Target.points -= 1;
-    	marker++;
+	if(speed > 5)
+		speed -= 1;
+	if(Target.points > 1)
+		Target.points -= 1;
+    marker++;
     	if(marker == 3)
     	{
     		marker = 0;
