@@ -90,11 +90,7 @@ function OnCollisionEnter(collision : Collision)
 		speed -= 1;
 	if(Target.points > 1)
 		Target.points -= 1;
-<<<<<<< HEAD
-    marker++;
-=======
     	marker++;
->>>>>>> 25b972bbcd80754dbf0b918607affaae8a98cb78
     	if(marker == 3)
     	{
     		marker = 0;
