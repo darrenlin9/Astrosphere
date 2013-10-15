@@ -9,6 +9,7 @@ A majority of the code can be viewed in Assets/Scripts.
 My current goals for future updates are:
 
 1) An informative message upon player death and a proper respawn time to improve flow of game.
+
 2) A pause and unpause button.
 
 The game can be played here: (Full Screen is Recommended)
