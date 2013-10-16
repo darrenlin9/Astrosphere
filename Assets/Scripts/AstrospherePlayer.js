@@ -26,7 +26,7 @@ function OnControllerColliderHit (hit : ControllerColliderHit)
 function Start()
 {
 	// Runs continuously and fires when mouse is clicked.
-	// Yields for the dvalue of shotDelay variable.
+	// Yields for the value of shotDelay variable.
 	while (true)
 	{
 		while(!Input.GetButtonDown("Fire1")) yield;
@@ -75,9 +75,8 @@ function LateUpdate()
 	{
 		transform.position = Vector3(-30, 50, 0);
 		audio.Play();
-		if(speed < 5)
+		if(speed > 5)
 			speed -= 2;
-		Target.points -= 1;
 		dead = false;
 	}
 }
