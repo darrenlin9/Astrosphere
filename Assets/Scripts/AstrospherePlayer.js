@@ -89,12 +89,12 @@ function OnCollisionEnter(collision : Collision)
 		speed -= 1;
 	if(Target.points > 1)
 		Target.points -= 1;
-   marker++;
-   if(marker == 3)
-   {
-    	marker = 0;
-    	dead = true;
-   }
+	marker++;
+   	if(marker == 3)
+   	{
+    		marker = 0;
+    		dead = true;
+   	}
 }
 
 @script RequireComponent(CharacterController)
